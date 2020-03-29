@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gharam/CLionProjects/NCursesConnectN/CursorTrackedWindow.h
+ncurses.h
+-
+
+/Users/gharam/CLionProjects/NCursesConnectN/board.h
+CursorTrackedWindow.h
+/Users/gharam/CLionProjects/NCursesConnectN/CursorTrackedWindow.h
+
+/Users/gharam/CLionProjects/NCursesConnectN/move.h
+CursorTrackedWindow.h
+/Users/gharam/CLionProjects/NCursesConnectN/CursorTrackedWindow.h
+board.h
+/Users/gharam/CLionProjects/NCursesConnectN/board.h
+
+/Users/gharam/CLionProjects/NCursesConnectN/win.c
+stdlib.h
+-
+win.h
+/Users/gharam/CLionProjects/NCursesConnectN/win.h
+
+/Users/gharam/CLionProjects/NCursesConnectN/win.h
+stdbool.h
+-
+board.h
+/Users/gharam/CLionProjects/NCursesConnectN/board.h
+move.h
+/Users/gharam/CLionProjects/NCursesConnectN/move.h
+
